@@ -1,0 +1,36 @@
+.navbar {
+   background-color: #fff;
+   box-shadow: var(--shadow);
+   padding: 10px 0;
+}
+
+.navContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   color: var(--primary-color);
+}
+
+.navList {
+   display: flex;
+   list-style-type: none;
+}
+
+.navItem {
+   margin-left: 20px;
+}
+
+.navLink {
+   color: var(--text-color);
+   font-weight: 500;
+   transition: color 0.3s ease;
+}
+
+.navLink:hover {
+   color: var(--primary-color);
+}

@@ -1,0 +1,47 @@
+.offenceList {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 30px;
+}
+
+.title {
+   text-align: center;
+   color: var(--primary-color);
+   margin-bottom: 30px;
+}
+
+.list {
+   list-style-type: none;
+}
+
+.offenceItem {
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: var(--shadow);
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.offenceName {
+   font-size: 18px;
+   font-weight: bold;
+   color: var(--primary-color);
+   margin-bottom: 10px;
+}
+
+.offenceDetails {
+   font-size: 14px;
+}
+
+.label {
+   font-weight: bold;
+   margin-right: 5px;
+}
+
+.bailable {
+   color: var(--secondary-color);
+}
+
+.notBailable {
+   color: #e74c3c;
+}
